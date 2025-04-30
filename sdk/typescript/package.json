@@ -1,0 +1,21 @@
+{
+  "name": "@yourfun/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for the your.fun Proof-of-Human platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.0",
+    "bn.js": "^5.2.1",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "typescript": "^5.4.0"
+  }
+}

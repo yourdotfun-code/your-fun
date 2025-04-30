@@ -1,0 +1,21 @@
+[package]
+name = "your-fun"
+version = "0.1.0"
+description = "Proof-of-Human verification and AI companion protocol on Solana"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "your_fun"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
+solana-program = "1.18"

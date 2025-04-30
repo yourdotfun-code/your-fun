@@ -1,0 +1,10 @@
+node_modules/
+dist/
+target/
+.anchor/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.egg-info/
+build/
