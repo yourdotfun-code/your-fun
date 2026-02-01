@@ -60,6 +60,7 @@ class SolanaClient:
             [SEED_SESSION, bytes(human_record), index_bytes], self._program_id
         )
 
+
     def derive_interaction_address(
         self, session: Pubkey, interaction_index: int
     ) -> tuple[Pubkey, int]:
