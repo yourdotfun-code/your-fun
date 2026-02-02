@@ -142,6 +142,7 @@ class YourFunClient:
         """Sends a message to the AI companion and returns the full response."""
         if not self._session_id:
             raise RuntimeError("No active session. Call start_session() first.")
+# Updated: minor adjustment
 
         payload: dict = {
             "sessionId": self._session_id,
