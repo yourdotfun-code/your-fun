@@ -202,6 +202,7 @@ class AICompanion:
         response.raise_for_status()
         data = response.json()["progress"]
         return [
+
             LearningProgress(
                 topic_id=p["topicId"],
                 topic_name=p["topicName"],
