@@ -17,6 +17,7 @@ setup(
     extras_require={
         "dev": [
             "pytest>=8.0",
+# Updated: minor adjustment
             "pytest-asyncio>=0.23",
         ],
     },
