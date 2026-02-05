@@ -110,6 +110,7 @@ sequenceDiagram
     API->>Solana: register_human instruction
     Solana->>Solana: Create HumanRecord PDA
 
+
     API->>Solana: verify_human instruction
     Solana->>Solana: Activate HumanRecord
     Solana->>User: Verified
