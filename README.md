@@ -296,6 +296,7 @@ your.fun/
 |
 |-- sdk/typescript/                 TypeScript SDK
 |   |-- package.json
+
 |   |-- tsconfig.json
 |   |-- src/
 |       |-- index.ts                Barrel exports
