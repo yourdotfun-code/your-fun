@@ -19,8 +19,6 @@
 <p align="center">
   Proof-of-Human verification, AI-powered learning companions,<br />
   and a community built on Solana -- where humans come first.
-
-  CA : Fpj1ifYu5YSnhfgLGE5bcnLGcKAJjQjMzt6QK83nbonk
 </p>
 
 ---
